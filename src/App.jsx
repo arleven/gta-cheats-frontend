@@ -24,7 +24,7 @@ function App() {
                 Get the App
               </a>
               <img
-                src="src/assets/ChatGPT Image Sep 2, 2025, 10_25_12 AM.jpg"
+                src="src/assets/poster1.jpg"
                 alt="GTA San Andreas Cover"
                 className="rounded-lg shadow-lg w-full"
               />
