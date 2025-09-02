@@ -24,7 +24,7 @@ function App() {
                 Get the App
               </a>
               <img
-                src="src/assets/poster1.jpg"
+                src="public/poster1.jpg"
                 alt="GTA San Andreas Cover"
                 className="rounded-lg shadow-lg w-full"
               />
