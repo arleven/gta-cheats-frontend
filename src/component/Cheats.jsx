@@ -530,7 +530,7 @@ function Cheat() {
 
                                 <div className="w-1/1 flex flex-col items-center space-y-3">
                                     <img
-                                        src="public/image3.jpg"
+                                        src="/image3.jpg"
                                         alt="GTA San Andreas Screenshot 2"
                                         className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                                     />
@@ -557,7 +557,7 @@ function Cheat() {
                 </section>
 
             </div>
-            <Footer/>
+            <Footer />
         </>
 
     )
