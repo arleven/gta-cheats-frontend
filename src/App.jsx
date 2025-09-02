@@ -24,7 +24,7 @@ function App() {
                 Get the App
               </a>
               <img
-                src="src/assets/ChatGPT Image Sep 2, 2025, 10_25_12 AM.png"
+                src="src/assets/ChatGPT Image Sep 2, 2025, 10_25_12 AM.jpg"
                 alt="GTA San Andreas Cover"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -489,7 +489,7 @@ function App() {
               <div className="flex justify-center gap-6 mt-8">
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_40_56 AM.png"
+                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_40_56 AM.jpg"
                     alt="GTA San Andreas Screenshot 3"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
@@ -512,7 +512,7 @@ function App() {
 
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_51_10 AM.png"
+                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_51_10 AM.jpg"
                     alt="GTA San Andreas Screenshot 1"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
@@ -533,7 +533,7 @@ function App() {
 
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_35_05 AM.png"
+                    src="src/assets/ChatGPT Image Sep 2, 2025, 10_35_05 AM.jpg"
                     alt="GTA San Andreas Screenshot 2"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
