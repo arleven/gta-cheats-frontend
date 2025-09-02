@@ -20,7 +20,7 @@ function Header() {
         <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-700 
                          rounded-lg bg-gray-800 md:space-x-8 rtl:space-x-reverse 
                          md:flex-row md:mt-0 md:border-0 md:bg-gray-900">
-          <li className="text-xl text-white">
+          <li className="text-2xl text-white">
             GTA San Andreas Cheat Codes 
           </li>
         </ul>
