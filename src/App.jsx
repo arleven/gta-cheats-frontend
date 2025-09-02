@@ -24,7 +24,7 @@ function App() {
                 Get the App
               </a>
               <img
-                src="public/poster1.jpg"
+                src="/poster1.jpg"
                 alt="GTA San Andreas Cover"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -489,7 +489,7 @@ function App() {
               <div className="flex justify-center gap-6 mt-8">
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="public/image1.jpg"
+                    src="/image1.jpg"
                     alt="GTA San Andreas Screenshot 3"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
@@ -512,7 +512,7 @@ function App() {
 
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="public/image2.jpg"
+                    src="/image2.jpg"
                     alt="GTA San Andreas Screenshot 1"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
@@ -533,7 +533,7 @@ function App() {
 
                 <div className="w-1/1 flex flex-col items-center space-y-3">
                   <img
-                    src="public/image3.jpg"
+                    src="/image3.jpg"
                     alt="GTA San Andreas Screenshot 2"
                     className="w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
                   />
