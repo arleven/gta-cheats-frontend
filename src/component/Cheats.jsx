@@ -91,7 +91,11 @@ function Cheat() {
 
                     {/* RIGHT COLUMN (Cheats Content) */}
                     <div className="space-y-12">
-                        <h5 className="text-xl sm:text-2xl font-bold mb-6">
+                        <h5
+                            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 
+             bg-gradient-to-r from-orange-500 via-red-600 to-red-800 
+             bg-clip-text text-transparent"
+                        >
                             GTA San Andreas cheats for PC, PlayStation, Xbox, and Mobile
                         </h5>
 
@@ -100,7 +104,7 @@ function Cheat() {
                             <h3 className="text-xl sm:text-2xl font-bold mt-8 mb-4">
                                 GTA San Andreas cheats for PC
                             </h3>
-                            <ul className="list-disc list-inside space-y-2 text-gray-300 text-sm sm:text-base">
+                            <ul className="list-disc list-inside space-y-2 text-gray-300 text-md sm:text-base">
                                 <ul className="list-disc list-inside space-y-2 text-gray-300">
                                     <li>
                                         <b className="text-white">Adrenaline Mode – </b>
@@ -108,7 +112,7 @@ function Cheat() {
                                     </li>
                                 </ul>
 
-                                <ul className="list-disc list-inside space-y-2 text-gray-300 text-sm sm:text-bas">
+                                <ul className="list-disc list-inside space-y-2 text-gray-300 text-md sm:text-bas">
                                     <li>
                                         <b className="text-white">Semi-Infinite Health – </b>
                                         <span className="text-white">BAGUVIX</span>
@@ -150,7 +154,7 @@ function Cheat() {
                                         <span className="text-white">AJLOJYQY</span>
                                     </li>
                                 </ul>
-                                <ul className="list-disc list-inside space-y-2 text-gray-300 text-sm sm:text-bas">
+                                <ul className="list-disc list-inside space-y-2 text-gray-300 text-md mb-4 sm:text-bas">
                                     <li>
                                         <b className="text-white">Bounty on Your Head – </b>
                                         <span className="text-white">BAGOWPG</span>
@@ -254,9 +258,10 @@ function Cheat() {
                                             href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-blue-600 underline hover:text-blue-800"
+                                            className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
                                         >
-                                            Download our app for more hidden cheat codes, 100% free...
+                                            🚀 Download our app for more hidden cheat codes, 100% free!
                                         </a>
                                     </li>
                                 </ul>
@@ -268,7 +273,7 @@ function Cheat() {
                             <h3 className="text-xl sm:text-2xl font-bold mt-8 mb-4">
                                 GTA San Andreas cheats for PlayStation
                             </h3>
-                            <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
+                            <ul className="list-disc list-inside space-y-2 text-md mb-4  sm:text-base">
                                 <li>
                                     <span className="font-bold">Aggressive Traffic –</span> R2, CIRCLE,
                                     R1, L2, LEFT, R1, L1, R2, L2
@@ -349,9 +354,10 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-blue-600 underline hover:text-blue-800"
+                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
-                                        Download our app for more hidden cheat codes, 100% free...
+                                        🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
                                 </li>
                             </ul>
@@ -361,7 +367,7 @@ function Cheat() {
                             <h3 className="text-xl sm:text-2xl font-bold mt-8 mb-4">
                                 GTA San Andreas cheats for Mobile
                             </h3>
-                            <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
+                            <ul className="list-disc list-inside space-y-2 mb-4  text-md sm:text-base">
                                 <li>
                                     <span className="font-medium">Health, Armor, and $250k Money –</span>{" "}
                                     <code className="font-mono">HESOYAM</code>
@@ -421,9 +427,10 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-blue-600 underline hover:text-blue-800"
+                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
-                                        Download our app for more hidden cheat codes, 100% free...
+                                        🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
                                 </li>
                             </ul>
@@ -435,7 +442,7 @@ function Cheat() {
                                 GTA San Andreas cheats for Xbox
                             </h3>
 
-                            <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
+                            <ul className="list-disc list-inside space-y-2 mb-4 text-md sm:text-base">
                                 <li><b>Aggressive Traffic –</b> RT, B, RB, LT, LEFT, RB, LB, RT, LT</li>
                                 <li><b>All cars have nitrous –</b> LEFT, Y, RB, LB, UP, X, Y, DOWN, B, LT, LB, LB</li>
                                 <li><b>All Traffic is Junk Cars –</b> LT, RIGHT, LB, UP, A, LB, LT, RT, RB, LB, LB, LB</li>
@@ -465,9 +472,10 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="text-blue-600 underline hover:text-blue-800"
+                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
-                                        Download our app for more hidden cheat codes, 100% free...
+                                        🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
                                 </li>
                             </ul>
@@ -492,7 +500,7 @@ function Cheat() {
                                         src="/image1.jpg"
                                         alt="GTA San Andreas Screenshot 3"
                                         className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg 
-                   hover:scale-105 transition-transform duration-300"
+                                                   hover:scale-105 transition-transform duration-300"
                                     />
                                     <a
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
