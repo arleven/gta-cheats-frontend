@@ -503,7 +503,7 @@ function Cheat() {
                                                    hover:scale-105 transition-transform duration-300"
                                     />
                                     <a
-                                        href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
+                                        href="/gta-vice-city-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -530,7 +530,7 @@ function Cheat() {
                    hover:scale-105 transition-transform duration-300"
                                     />
                                     <a
-                                        href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
+                                        href="gta-liberty-city-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -555,7 +555,7 @@ function Cheat() {
                    hover:scale-105 transition-transform duration-300"
                                     />
                                     <a
-                                        href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
+                                        href="/gta-v-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
