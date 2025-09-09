@@ -269,8 +269,7 @@ function LibertyCity() {
                      shadow-md 
                      hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
                      active:scale-95 transition-all duration-300 ease-in-out"
-                                        >
-                                            GET THE APP
+                                        >                                            View
                                         </button>
                                     </a>
                                 </div>
@@ -295,7 +294,7 @@ function LibertyCity() {
                            shadow-md 
                            hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
                            active:scale-95 transition-all duration-300 ease-in-out">
-                                            GET THE APP
+                                            View
                                         </button>
                                     </a>
                                 </div>
@@ -320,7 +319,7 @@ function LibertyCity() {
                            shadow-md 
                            hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
                            active:scale-95 transition-all duration-300 ease-in-out">
-                                            GET THE APP
+                                            View
                                         </button>
                                     </a>
                                 </div>
