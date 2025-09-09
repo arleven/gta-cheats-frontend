@@ -247,53 +247,55 @@ function LibertyCity() {
 
                             {/* Responsive Grid for Images */}
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 place-items-center">
-
                                 {/* Card 1 */}
                                 <div className="flex flex-col items-center space-y-3">
-                                    <img
-                                        src="/poster1.jpg"
-                                        alt="GTA San Andreas Screenshot 3"
-                                        className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg 
-                                                   hover:scale-105 transition-transform duration-300"
-                                    />
                                     <a
-                                        href="gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console"
+                                        href="/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        className="flex flex-col items-center space-y-3"
                                     >
+                                        <img
+                                            src="/poster1.jpg"
+                                            alt="GTA San Andreas"
+                                            className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+                                        />
                                         <button
                                             className="px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 
-                     bg-cyan-500 text-white font-semibold 
-                     text-sm sm:text-base md:text-lg 
-                     rounded-lg sm:rounded-xl md:rounded-full 
-                     shadow-md 
-                     hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
-                     active:scale-95 transition-all duration-300 ease-in-out"
-                                        >                                            View
+        bg-cyan-500 text-white font-semibold 
+        text-sm sm:text-base md:text-lg 
+        rounded-lg sm:rounded-xl md:rounded-full 
+        shadow-md 
+        hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
+        active:scale-95 transition-all duration-300 ease-in-out"
+                                        >
+                                            View
                                         </button>
                                     </a>
                                 </div>
 
                                 {/* Card 2 */}
                                 <div className="flex flex-col items-center space-y-3">
-                                    <img
-                                        src="/image1.jpg"
-                                        alt="GTA San Andreas Screenshot 1"
-                                        className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg 
-                   hover:scale-105 transition-transform duration-300"
-                                    />
                                     <a
                                         href="/gta-vice-city-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        className="flex flex-col items-center space-y-3"
                                     >
-                                        <button className="px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 
-                           bg-cyan-500 text-white font-semibold 
-                           text-sm sm:text-base md:text-lg 
-                           rounded-lg sm:rounded-xl md:rounded-full 
-                           shadow-md 
-                           hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
-                           active:scale-95 transition-all duration-300 ease-in-out">
+                                        <img
+                                            src="/image1.jpg"
+                                            alt="GTA Vice City"
+                                            className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+                                        />
+                                        <button
+                                            className="px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 
+        bg-cyan-500 text-white font-semibold 
+        text-sm sm:text-base md:text-lg 
+        rounded-lg sm:rounded-xl md:rounded-full 
+        shadow-md 
+        hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
+        active:scale-95 transition-all duration-300 ease-in-out"
+                                        >
                                             View
                                         </button>
                                     </a>
@@ -301,29 +303,32 @@ function LibertyCity() {
 
                                 {/* Card 3 */}
                                 <div className="flex flex-col items-center space-y-3">
-                                    <img
-                                        src="/image3.jpg"
-                                        alt="GTA San Andreas Screenshot 2"
-                                        className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg 
-                   hover:scale-105 transition-transform duration-300"
-                                    />
                                     <a
                                         href="/gta-v-cheats-for-pc-playstation-android-microsoft-console"
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        className="flex flex-col items-center space-y-3"
                                     >
-                                        <button className="px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 
-                           bg-cyan-500 text-white font-semibold 
-                           text-sm sm:text-base md:text-lg 
-                           rounded-lg sm:rounded-xl md:rounded-full 
-                           shadow-md 
-                           hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
-                           active:scale-95 transition-all duration-300 ease-in-out">
+                                        <img
+                                            src="/image3.jpg"
+                                            alt="GTA V"
+                                            className="w-[220px] sm:w-[240px] md:w-[250px] rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300"
+                                        />
+                                        <button
+                                            className="px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 
+        bg-cyan-500 text-white font-semibold 
+        text-sm sm:text-base md:text-lg 
+        rounded-lg sm:rounded-xl md:rounded-full 
+        shadow-md 
+        hover:bg-cyan-600 hover:shadow-lg hover:scale-105 
+        active:scale-95 transition-all duration-300 ease-in-out"
+                                        >
                                             View
                                         </button>
                                     </a>
                                 </div>
                             </div>
+
                         </section>
 
                     </div >
