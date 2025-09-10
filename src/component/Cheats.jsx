@@ -11,9 +11,9 @@ function Cheat() {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
                         {/* LEFT COLUMN (Sticky Cover + Buy Button) */}
                         <div className="md:sticky md:top-20 self-start space-y-6">
-                            <h1 className="text-2xl sm:text-3xl font-bold">Grand Theft Auto: San Andreas</h1>
+                            <h1 className="text-2xl sm:text-3xl font-bold">Grand Theft Auto: San Andreas Cheat Codes</h1>
                             <a
-                                href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
+                                href="https://apps.apple.com/us/app/cheat-codes-for-gta-5-freeflow/id6749615212"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-6 py-3 rounded-lg shadow-lg"
