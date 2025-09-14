@@ -13,7 +13,7 @@ function ViceCity() {
                         <div className="md:sticky md:top-20 self-start space-y-6">
                             <h1 className="text-2xl sm:text-3xl font-bold">Grand Theft Auto: Vice City Cheat Codes</h1>
                             <a
-                                href="https://apps.apple.com/us/app/cheat-codes-for-gta-5-freeflow/id6749615212"
+                                href="https://apps.apple.com/us/app/cheats-codes-for-gta-vice-city/id6751623836"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-6 py-3 rounded-lg shadow-lg"
