@@ -7,6 +7,7 @@ function Cheat() {
         <>
             <Header />
             <div>
+
                 <main className="bg-black text-white min-h-screen mt-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-2 gap-12">
                         {/* LEFT COLUMN (Sticky Cover + Buy Button) */}
@@ -258,12 +259,16 @@ function Cheat() {
                                             href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
-                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
+                                            className="block w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px]
+               p-4 rounded-2xl shadow-md 
+               bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+               text-white font-semibold text-center
+               hover:scale-105 hover:shadow-xl transform transition duration-300"
                                         >
                                             🚀 Download our app for more hidden cheat codes, 100% free!
                                         </a>
                                     </li>
+
                                 </ul>
                             </ul>
                         </section>
@@ -354,8 +359,11 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
-                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
+                                        className="block w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px]
+               p-4 rounded-2xl shadow-md 
+               bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+               text-white font-semibold text-center
+               hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
                                         🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
@@ -427,8 +435,11 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
-                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
+                                        className="block w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px]
+               p-4 rounded-2xl shadow-md 
+               bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+               text-white font-semibold text-center
+               hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
                                         🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
@@ -472,8 +483,11 @@ function Cheat() {
                                         href="https://apps.apple.com/us/app/cheat-codes-for-gta-san-andrea/id6748644645"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="block p-4 rounded-2xl shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
-                 text-white font-semibold hover:scale-105 hover:shadow-xl transform transition duration-300"
+                                        className="block w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px]
+               p-4 rounded-2xl shadow-md 
+               bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+               text-white font-semibold text-center
+               hover:scale-105 hover:shadow-xl transform transition duration-300"
                                     >
                                         🚀 Download our app for more hidden cheat codes, 100% free!
                                     </a>
@@ -489,10 +503,10 @@ function Cheat() {
                             <h3 className="text-xl sm:text-2xl font-bold mt-8 mb-4 text-center">
                                 Related Apps
                             </h3>
-                            <hr className="border-gray-700" />
+                            <hr className="border-gray-700 w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px]"  />
 
                             {/* Responsive Grid for Images */}
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 place-items-center">
+                            <div className="w-full max-w-md sm:max-w-lg md:max-w-2xl lg:max-w-[1200px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 place-items-center">
 
                                 {/* Card 1 */}
                                 <a
