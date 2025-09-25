@@ -10,12 +10,18 @@ function App() {
   const hostname = window.location.hostname;
 
   // Default homepage depending on domain
-  let defaultRedirect = "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
+  let defaultRedirect =
+    "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
 
-  if (hostname.includes("gtacheatcodes.app")) {
-    defaultRedirect = "/gta-v-cheats-for-pc-playstation-android-microsoft-console";
+  if (hostname.includes("cheathub.app")) {
+    defaultRedirect =
+      "/gta-v-cheats-for-pc-playstation-android-microsoft-console";
+  } else if (hostname.includes("cheatpad.app")) {
+    defaultRedirect =
+      "/gta-v-cheats-for-pc-playstation-android-microsoft-console";
   } else if (hostname.includes("gtasanandreascheatcodes.com")) {
-    defaultRedirect = "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
+    defaultRedirect =
+      "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
   }
 
   return (
