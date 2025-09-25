@@ -1,19 +1,30 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Cheat from "./component/Cheats";
-import ViceCity from "./component/ViceCity.jsx"; // create this
-import Header from "./component/Header";     // import header
+import ViceCity from "./component/ViceCity.jsx";
+import Header from "./component/Header";
 import LibertyCity from "./component/LibertyCity.jsx";
 import GtaFive from "./component/Gtafive.jsx";
 
 function App() {
+  const hostname = window.location.hostname;
+
+  // Default homepage depending on domain
+  let defaultRedirect = "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
+
+  if (hostname.includes("gtacheatcodes.app")) {
+    defaultRedirect = "/gta-v-cheats-for-pc-playstation-android-microsoft-console";
+  } else if (hostname.includes("gtasanandreascheatcodes.com")) {
+    defaultRedirect = "/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console";
+  }
+
   return (
     <>
       <Helmet>
         <title>GTA Cheat Codes App</title>
         <meta
           name="description"
-          content="Cheat codes for GTA San Andreas, Vice City, and more on PC, PlayStation, Xbox, and Mobile."
+          content="Cheat codes for GTA San Andreas, Vice City, GTA V and more on PC, PlayStation, Xbox, and Mobile."
         />
       </Helmet>
 
@@ -21,11 +32,8 @@ function App() {
       <Header />
 
       <Routes>
-        {/* Redirect root to San Andreas page */}
-        <Route
-          path="/"
-          element={<Navigate to="/gta-san-andreas-cheats-for-pc-playstation-android-microsoft-console" replace />}
-        />
+        {/* Redirect root (/) based on domain */}
+        <Route path="/" element={<Navigate to={defaultRedirect} replace />} />
 
         {/* San Andreas */}
         <Route
@@ -38,10 +46,14 @@ function App() {
           path="/gta-vice-city-cheats-for-pc-playstation-android-microsoft-console"
           element={<ViceCity />}
         />
+
+        {/* Liberty City */}
         <Route
           path="/gta-liberty-city-cheats-for-pc-playstation-android-microsoft-console"
           element={<LibertyCity />}
         />
+
+        {/* GTA V */}
         <Route
           path="/gta-v-cheats-for-pc-playstation-android-microsoft-console"
           element={<GtaFive />}
